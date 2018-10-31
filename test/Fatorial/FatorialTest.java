@@ -5,9 +5,9 @@ public class FatorialTest extends TestCase{
 	Fatorial fat = new Fatorial();
 	
 	//Inválido
-	/*public void testT0() {
-		assertEquals(0, fat.fat(-1));
-	}*/
+	public void testT0() {
+		assertEquals(-1, fat.fat(-1));
+	}
 	
 	//Valor 1 = 1
 	public void testT1() {
